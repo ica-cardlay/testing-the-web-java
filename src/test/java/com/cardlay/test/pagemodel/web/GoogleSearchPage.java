@@ -7,9 +7,9 @@ public class GoogleSearchPage {
 
     WebDriver driver;
 
-    By searchInput = By.name("");
+    By searchInput = By.name("q");
 
-    By buttonSearch = By.name("");
+    By buttonSearch = By.name("btnK");
 
     By buttonLuck = By.className("");
 
@@ -21,7 +21,7 @@ public class GoogleSearchPage {
 
     }
 
-    public void setSeachInputFieldTo(String value) {
+    public void setSearchInputFieldTo(String value) {
         driver.findElement(searchInput).sendKeys(value);
     }
 

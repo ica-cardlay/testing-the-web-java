@@ -83,7 +83,7 @@ public class GoogleSearchTest {
         GoogleSearchPage googleSearchPage = new GoogleSearchPage(driver);
 
         // What to do here?
-        googleSearchPage.setSeachInputFieldTo("");
+        googleSearchPage.setSearchInputFieldTo("");
 
         // What should we assert? How do we know this works?
 
